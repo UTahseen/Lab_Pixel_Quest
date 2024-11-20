@@ -179,7 +179,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Pixel Quest
+  m_text: MALINE237
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 478579933e3c32647a216b8f2d93560b, type: 2}
   m_sharedMaterial: {fileID: -7202128288837269133, guid: 478579933e3c32647a216b8f2d93560b, type: 2}
@@ -188,8 +188,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4279839485
+  m_fontColor: {r: 0.990566, g: 0.16323715, b: 0.098122105, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -206,10 +206,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
-  m_fontSizeBase: 36
+  m_fontSize: 93
+  m_fontSizeBase: 93
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -648,7 +648,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ad1f82dc3d5b1ac4782bb200c7cf7416, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4001dbb028260c441a32a63dd4d09022, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -695,6 +695,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66f6ab6a4f4afb64aae4ce3d93f9b9d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  startLevel: TestLevel
 --- !u!4 &1773238219
 Transform:
   m_ObjectHideFlags: 0
