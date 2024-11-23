@@ -5,7 +5,7 @@ using UnityEngine;
 public class GreenJump : MonoBehaviour
 {
     private Rigidbody2D _rigidbody2D;  // Controls player movment 
-    public float JumpForce = 10;      // Force with which the player jumps 
+    public float JumpForce = 1;      // Force with which the player jumps 
 
     public Transform feetCollsion;
     public LayerMask groundMask;
@@ -23,7 +23,7 @@ public class GreenJump : MonoBehaviour
 
 
         // When player clicks space the character will jump 
-        if (Input.GetKeyDown(KeyCode.W) && (groundCheck)) { 
+        if (Input.GetKeyDown(KeyCode.W) && groundCheck) { 
             _rigidbody2D.velocity = new Vector2(_rigidbody2D.velocity.x, JumpForce);
         }
     }
